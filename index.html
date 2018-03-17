@@ -509,6 +509,32 @@ Computer Vision detects patterns in the images captured. BLE pushes data from sm
 			<br>
 			
 			
+			
+			
+			<div class="row">
+			  <div class="col s12 offset-m1 m10 offset-l2 l8">
+			   
+					  <div class=flow-text>Brain controlled Smart-phone interface</div>
+					  <p>
+					  
+					   <div class="chip">OpenBCI Ganglion</div> <div class="chip">Android</div> <div class="chip">Python</div><div class="chip">Arduino</div> <div class="chip">BLE</div>
+					 <p><a href="https://github.com/JayLohokare/brain-smartphone-interface/commits/master">Github link</a></p>
+					 
+					 <p>
+					  Control smartphones by thought!<br>
+OpenBCI Ganglion board to detect brain waves - The system detects numbers a person is thinking about.<br>
+Android application uses Android accessibility services to overlay numbers over all locations on touch-screen where interaction is possible.<br>
+The number detected by Ganglion is sent over BLE to Android, which performs a click event on the location mapped to number received from BCI.<br>
+
+					  </p>
+					  
+				 
+			</div></div>
+			
+			
+			<br>
+			
+			
 			<div class="row">
 			<div class="col s12 offset-m1 m10 offset-l2 l8">
 			
@@ -517,7 +543,8 @@ Computer Vision detects patterns in the images captured. BLE pushes data from sm
 				
 			 
 				<div class="chip">Android</div><div class="chip">SVM</div><div class="chip">RaspberryPi</div><div class="chip">MQTT</div><div class="chip">AODV Adhoc networks</div><div class="chip">Python</div>
-			 
+			 <p><a href="https://github.com/JayLohokare/super-sensor-adhoc-network">Github link</a></p>
+					 
 					 <p>
 					  
 					  Super sensors -<br>
@@ -541,6 +568,38 @@ Coded AODV from scratch over Android and Android things.
 			
 			<br>
 			
+			
+			
+			<div class="row">
+			<div class="col s12 offset-m1 m10 offset-l2 l8">
+			
+			
+				<div class=flow-text>EchoPrint</div>
+				
+			 
+				<div class="chip">Android</div><div class="chip">Keras</div><div class="chip">TensorFlow</div><div class="chip">Acoustic Sensing</div><div class="chip">Python</div>
+			 		 
+					 <p>
+					  
+					  An alternative face authentication method for smart-phones.<br>
+					  EchoPrint uses a combination of Acoustic signals (Sound waves) along with visual features (Image recognition) to create a fool-proof face authentication system.<br>
+					  The smartphone is made to emit a high frequecy sound wave that reflects on the person's face. This reflection is recorded and Deep learning on the reflection is used to classify the person as authorized/un-authorized person.<br>
+					  Achieved accuracy of 96% using Tensorflow and keras with ensembeled model of CNN and SVM.<br>
+					  CNN is used for feature extraction and SVMs is used for calssification over the acoustic and visual features.
+					  
+
+
+					  </p>
+					   
+			</div></div>
+			
+			
+			
+			
+			
+			
+			
+			<br>
 			
 			
 			
@@ -609,6 +668,12 @@ Kym is the alternative needed for a better credit score calculation. An android 
 <br><br>
 GoJek GoPay wallet integration:<br>
 Enhanced version of GoPay using Kym. Lets users pay for services using GoPay wallet even without having money in wallet. The maximum amount of negative balance allowed is calculated by machine learning (Implemented Multiple linear regressions).
+
+<br><br>
+Social lending platform using Kym:<br>
+Built a social medial platform using Kym backend at YHacks 2017 (Yale University). The platform is like Yelp for social lending - Lenders and borrowers can discover each other along with credit ratings. <br> 
+The platform helps lenders invest money into prospective borrowers in neighborhood with varying interest rates based on borrowers credit profile, which is built using Kym backend.
+
 <br>
 
 
@@ -645,6 +710,7 @@ Enhanced version of GoPay using Kym. Lets users pay for services using GoPay wal
 Created IoT solution to monitor energy consumption and control all electronic appliances in a home. This home automation project has hardware POC made using Intel Edison board. The cloud back-end uses AWS EC2 running MQTT service. A JAVA MQTT Client bridges MQTT to Apache Kafka. Apache Kafka stored all the streamed data to database which then are accessed by android app. The android application uses AI and NLP to replace traditional app interactions by a voice enabled personal assistant.
 <br>
 *Contextual control of IoT devices<br>
+*Granular permissions and user access<br>
 *Machine learning to detect user patterns and preferences<br>
 *Voice IO for interactive communication with the system<br>
  
@@ -981,6 +1047,32 @@ Tag search finds best match using wordnet.<br>
 			
 			
 			
+			<div class="row">
+			  <div class="col s12 offset-m1 m10 offset-l2 l8">
+			
+				 <div class=flow-text>Finance summary chatbot</div>
+					 
+					 
+					  <div class="chip">Android</div><div class="chip">PHP</div><div class="chip">Python</div><div class="chip">Keyword Mining</div><div class="chip">R</div>
+					 
+					 
+					  <p><a href="https://github.com/JayLohokare/emqttd_mongodb_plugin">Github Link</a></p>
+					
+					 
+					 <p>
+					  A chat-bot to summarize expenses, finding detailed trends related to daily, weekly and montly expenses.<br>
+					  The chat-bot automatically mines expenses and income from bank API calls and SMS/Emails.<br>
+					  The summarization backend is written in R language, where the data is processed and analyzed on hourly basis using a R cron-job.<br>
+					  The chat-bot is based on key-word mining from input speech/text and can process complex queries using top-down NLP approach.
+					  </p>
+					   
+			</div></div>	
+			
+			
+			<br>
+			
+			
+			
 			
 			
 			
@@ -1095,6 +1187,15 @@ Tag search finds best match using wordnet.<br>
 		<div id="mobilePublications" class="container">
 		
 		<h4 class="flow-text center-align red-text ">Publications</h4><br>
+		
+		
+		<a href="http://www.jaylohokare.com/docs/papers/Cardiotocography.pdf">
+		<div class="row  "> <div class="col s12 offset-m2 m8 offset-l2 l8">
+		<p class="black-text">Classification of Cardiotocography signals using Machine Learning
+			  </p>
+			  <span class= "blue-text text-darken-4">-IEEE IntelliSys 2018</span>
+			</div> 
+		</div></a>
 		
 		<a href="http://www.jaylohokare.com/docs/papers/EmergencyPlatform.pdf">
 		<div class="row  "> <div class="col s12 offset-m2 m8 offset-l2 l8">
@@ -1751,6 +1852,24 @@ Computer Vision detects patterns in the images captured. BLE pushes data from sm
 			
 			
 			
+			<div class="row">
+			  <div class="col s12 offset-m3 m6 offset-l2 l8">
+			   
+					  <div class=flow-text>Brain controlled Smart-phone interface</div>
+					  <p>
+					  
+					   <div class="chip">OpenBCI Ganglion</div> <div class="chip">Android</div> <div class="chip">Python</div><div class="chip">Arduino</div> <div class="chip">BLE</div>
+					 <p><a href="https://github.com/JayLohokare/brain-smartphone-interface/commits/master">Github link</a></p>
+					 <p>
+					  Control smartphones by thought!<br>
+OpenBCI Ganglion board to detect brain waves - The system detects numbers a person is thinking about.<br>
+Android application uses Android accessibility services to overlay numbers over all locations on touch-screen where interaction is possible.<br>
+The number detected by Ganglion is sent over BLE to Android, which performs a click event on the location mapped to number received from BCI.<br>
+
+					  </p>
+					  
+				 
+			</div></div>
 			
 			
 			
@@ -1764,7 +1883,8 @@ Computer Vision detects patterns in the images captured. BLE pushes data from sm
 				
 			 
 				<div class="chip">Android</div><div class="chip">SVM</div><div class="chip">RaspberryPi</div><div class="chip">MQTT</div><div class="chip">AODV Adhoc networks</div><div class="chip">Python</div>
-			 
+			 <p><a href="https://github.com/JayLohokare/super-sensor-adhoc-network">Github link</a></p>
+					 
 					 <p>
 					  
 					  Super sensors -<br>
@@ -1781,6 +1901,28 @@ Coded AODV from scratch over Android and Android things.
 			</div></div>
 			
 			
+<div class="row">
+			<div class="col s12 offset-m3 m6 offset-l2 l8">
+			
+			
+				<div class=flow-text>EchoPrint</div>
+				
+			 
+				<div class="chip">Android</div><div class="chip">Keras</div><div class="chip">TensorFlow</div><div class="chip">Acoustic Sensing</div><div class="chip">Python</div>
+			 		 
+					 <p>
+					  
+					  An alternative face authentication method for smart-phones.<br>
+					  EchoPrint uses a combination of Acoustic signals (Sound waves) along with visual features (Image recognition) to create a fool-proof face authentication system.<br>
+					  The smartphone is made to emit a high frequecy sound wave that reflects on the person's face. This reflection is recorded and Deep learning on the reflection is used to classify the person as authorized/un-authorized person.<br>
+					  Achieved accuracy of 96% using Tensorflow and keras with ensembeled model of CNN and SVM.<br>
+					  CNN is used for feature extraction and SVMs is used for calssification over the acoustic and visual features.
+					  
+
+
+					  </p>
+					   
+			</div></div>
 			
 			
 			
@@ -1852,6 +1994,11 @@ Kym is the alternative needed for a better credit score calculation. An android 
 <br><br>
 GoJek GoPay wallet integration:<br>
 Enhanced version of GoPay using Kym. Lets users pay for services using GoPay wallet even without having money in wallet. The maximum amount of negative balance allowed is calculated by machine learning (Implemented Multiple linear regressions).
+<br><br>
+Social lending platform using Kym:<br>
+Built a social medial platform using Kym backend at YHacks 2017 (Yale University). The platform is like Yelp for social lending - Lenders and borrowers can discover each other along with credit ratings. <br> 
+The platform helps lenders invest money into prospective borrowers in neighborhood with varying interest rates based on borrowers credit profile, which is built using Kym backend.
+
 <br>
 
 
@@ -1888,6 +2035,7 @@ Enhanced version of GoPay using Kym. Lets users pay for services using GoPay wal
 Created IoT solution to monitor energy consumption and control all electronic appliances in a home. This home automation project has hardware POC made using Intel Edison board. The cloud back-end uses AWS EC2 running MQTT service. A JAVA MQTT Client bridges MQTT to Apache Kafka. Apache Kafka stored all the streamed data to database which then are accessed by android app. The android application uses AI and NLP to replace traditional app interactions by a voice enabled personal assistant.
 <br>
 *Contextual control of IoT devices<br>
+*Granular permissions and user access<br>
 *Machine learning to detect user patterns and preferences<br>
 *Voice IO for interactive communication with the system<br>
  
@@ -2128,6 +2276,27 @@ Tag search finds best match using wordnet.<br>
 			
 			
 			
+			<div class="row">
+			  <div class="col s12 offset-m3 m6 offset-l2 l8">
+			
+				 <div class=flow-text>Finance summary chatbot</div>
+					 
+					 
+					  <div class="chip">Android</div><div class="chip">PHP</div><div class="chip">Python</div><div class="chip">Keyword Mining</div><div class="chip">R</div>
+					 
+					 
+					  <p><a href="https://github.com/JayLohokare/emqttd_mongodb_plugin">Github Link</a></p>
+					
+					 
+					 <p>
+					  A chat-bot to summarize expenses, finding detailed trends related to daily, weekly and montly expenses.<br>
+					  The chat-bot automatically mines expenses and income from bank API calls and SMS/Emails.<br>
+					  The summarization backend is written in R language, where the data is processed and analyzed on hourly basis using a R cron-job.<br>
+					  The chat-bot is based on key-word mining from input speech/text and can process complex queries using top-down NLP approach.
+					  </p>
+					   
+			</div></div>	
+			
 			
 			
 			
@@ -2216,7 +2385,13 @@ Tag search finds best match using wordnet.<br>
 		 
 		<div id="Publications" class="container">
 		
-		 
+		 <a href="http://www.jaylohokare.com/docs/papers/Cardiotocography.pdf">
+		<div class="row  "> <div class="col s12 offset-m2 m8 offset-l2 l8">
+		<p class="black-text">Classification of Cardiotocography signals using Machine Learning
+			  </p>
+			  <span class= "blue-text text-darken-4">-IEEE IntelliSys 2018</span>
+			</div> 
+		</div></a>
 		
 	 
 		
